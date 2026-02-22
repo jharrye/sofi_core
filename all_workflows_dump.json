@@ -1,0 +1,1124 @@
+[
+  {
+    "updatedAt": "2026-01-17T02:26:28.512Z",
+    "createdAt": "2026-01-17T02:26:28.512Z",
+    "id": "Fq8n0v5-xsW-sPFzW0J-Y",
+    "name": "My workflow",
+    "description": null,
+    "active": false,
+    "isArchived": false,
+    "nodes": [
+      {
+        "parameters": {},
+        "type": "n8n-nodes-base.manualTrigger",
+        "typeVersion": 1,
+        "position": [
+          0,
+          0
+        ],
+        "id": "0a518daf-b69f-42e2-8f3f-4d850a27f602",
+        "name": "When clicking \u2018Execute workflow\u2019"
+      },
+      {
+        "parameters": {
+          "assignments": {
+            "assignments": [
+              {
+                "id": "4bc62dc0-fd14-473b-b277-75cf4a859eeb",
+                "name": "mesaje",
+                "value": "n8n est\u00e1 funcionando correctamente",
+                "type": "string"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3.4,
+        "position": [
+          208,
+          0
+        ],
+        "id": "12b24c5c-043a-4ac5-9211-45ac9ad176ed",
+        "name": "Edit Fields"
+      }
+    ],
+    "connections": {
+      "When clicking \u2018Execute workflow\u2019": {
+        "main": [
+          [
+            {
+              "node": "Edit Fields",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1",
+      "availableInMCP": false
+    },
+    "staticData": null,
+    "meta": null,
+    "pinData": {},
+    "versionId": "b44e9711-10a4-45ff-980e-0f04d134a185",
+    "activeVersionId": null,
+    "versionCounter": 1,
+    "triggerCount": 0,
+    "shared": [
+      {
+        "updatedAt": "2026-01-17T02:26:28.520Z",
+        "createdAt": "2026-01-17T02:26:28.520Z",
+        "role": "workflow:owner",
+        "workflowId": "Fq8n0v5-xsW-sPFzW0J-Y",
+        "projectId": "AnH5s5k0IPDAbKAr",
+        "project": {
+          "updatedAt": "2026-02-15T01:13:46.279Z",
+          "createdAt": "2026-01-16T09:23:06.039Z",
+          "id": "AnH5s5k0IPDAbKAr",
+          "name": "jhon harry embus <j.harryembusss@gmail.com>",
+          "type": "personal",
+          "icon": null,
+          "description": null,
+          "creatorId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+          "projectRelations": [
+            {
+              "updatedAt": "2026-01-16T09:23:06.040Z",
+              "createdAt": "2026-01-16T09:23:06.040Z",
+              "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+              "projectId": "AnH5s5k0IPDAbKAr",
+              "user": {
+                "updatedAt": "2026-02-22T00:06:07.000Z",
+                "createdAt": "2026-01-16T09:23:05.488Z",
+                "id": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+                "email": "j.harryembusss@gmail.com",
+                "firstName": "jhon harry",
+                "lastName": "embus",
+                "personalizationAnswers": {
+                  "version": "v4",
+                  "personalization_survey_submitted_at": "2026-01-17T02:05:18.446Z",
+                  "personalization_survey_n8n_version": "2.3.5"
+                },
+                "settings": {
+                  "userActivated": true,
+                  "easyAIWorkflowOnboarded": true,
+                  "firstSuccessfulWorkflowId": "WWFBfwaOceE8Jgke",
+                  "userActivatedAt": 1770490476556,
+                  "npsSurvey": {
+                    "waitingForResponse": true,
+                    "ignoredCount": 1,
+                    "lastShownAt": 1771202278904
+                  }
+                },
+                "disabled": false,
+                "mfaEnabled": false,
+                "lastActiveAt": "2026-02-21",
+                "isPending": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [],
+    "activeVersion": null
+  },
+  {
+    "updatedAt": "2026-01-25T03:07:34.408Z",
+    "createdAt": "2026-01-25T01:49:20.846Z",
+    "id": "J7DQ2gd6USSUrirbDpWDJ",
+    "name": "My workflow 4",
+    "description": null,
+    "active": true,
+    "isArchived": false,
+    "nodes": [
+      {
+        "parameters": {
+          "path": "9857ac74-e11e-48a9-b5aa-9232d732b027",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2.1,
+        "position": [
+          0,
+          0
+        ],
+        "id": "a3022987-20b4-4b14-95d3-e238eb205b4d",
+        "name": "Webhook",
+        "webhookId": "9857ac74-e11e-48a9-b5aa-9232d732b027"
+      }
+    ],
+    "connections": {},
+    "settings": {
+      "executionOrder": "v1",
+      "availableInMCP": true,
+      "timeSavedMode": "fixed",
+      "callerPolicy": "workflowsFromSameOwner"
+    },
+    "staticData": null,
+    "meta": {
+      "templateCredsSetupCompleted": true
+    },
+    "pinData": {},
+    "versionId": "12efb8d6-7132-4b3d-ab99-5c0a02923410",
+    "activeVersionId": "12efb8d6-7132-4b3d-ab99-5c0a02923410",
+    "versionCounter": 29,
+    "triggerCount": 1,
+    "shared": [
+      {
+        "updatedAt": "2026-01-25T01:49:20.853Z",
+        "createdAt": "2026-01-25T01:49:20.853Z",
+        "role": "workflow:owner",
+        "workflowId": "J7DQ2gd6USSUrirbDpWDJ",
+        "projectId": "AnH5s5k0IPDAbKAr",
+        "project": {
+          "updatedAt": "2026-02-15T01:13:46.279Z",
+          "createdAt": "2026-01-16T09:23:06.039Z",
+          "id": "AnH5s5k0IPDAbKAr",
+          "name": "jhon harry embus <j.harryembusss@gmail.com>",
+          "type": "personal",
+          "icon": null,
+          "description": null,
+          "creatorId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+          "projectRelations": [
+            {
+              "updatedAt": "2026-01-16T09:23:06.040Z",
+              "createdAt": "2026-01-16T09:23:06.040Z",
+              "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+              "projectId": "AnH5s5k0IPDAbKAr",
+              "user": {
+                "updatedAt": "2026-02-22T00:06:07.000Z",
+                "createdAt": "2026-01-16T09:23:05.488Z",
+                "id": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+                "email": "j.harryembusss@gmail.com",
+                "firstName": "jhon harry",
+                "lastName": "embus",
+                "personalizationAnswers": {
+                  "version": "v4",
+                  "personalization_survey_submitted_at": "2026-01-17T02:05:18.446Z",
+                  "personalization_survey_n8n_version": "2.3.5"
+                },
+                "settings": {
+                  "userActivated": true,
+                  "easyAIWorkflowOnboarded": true,
+                  "firstSuccessfulWorkflowId": "WWFBfwaOceE8Jgke",
+                  "userActivatedAt": 1770490476556,
+                  "npsSurvey": {
+                    "waitingForResponse": true,
+                    "ignoredCount": 1,
+                    "lastShownAt": 1771202278904
+                  }
+                },
+                "disabled": false,
+                "mfaEnabled": false,
+                "lastActiveAt": "2026-02-21",
+                "isPending": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [],
+    "activeVersion": {
+      "updatedAt": "2026-01-25T03:06:49.000Z",
+      "createdAt": "2026-01-25T03:06:14.543Z",
+      "versionId": "12efb8d6-7132-4b3d-ab99-5c0a02923410",
+      "workflowId": "J7DQ2gd6USSUrirbDpWDJ",
+      "nodes": [
+        {
+          "parameters": {
+            "path": "9857ac74-e11e-48a9-b5aa-9232d732b027",
+            "options": {}
+          },
+          "type": "n8n-nodes-base.webhook",
+          "typeVersion": 2.1,
+          "position": [
+            0,
+            0
+          ],
+          "id": "a3022987-20b4-4b14-95d3-e238eb205b4d",
+          "name": "Webhook",
+          "webhookId": "9857ac74-e11e-48a9-b5aa-9232d732b027"
+        }
+      ],
+      "connections": {},
+      "authors": "jhon embus",
+      "name": "Version 12efb8d6",
+      "description": "",
+      "autosaved": false,
+      "workflowPublishHistory": [
+        {
+          "createdAt": "2026-01-25T03:06:49.950Z",
+          "id": 1,
+          "workflowId": "J7DQ2gd6USSUrirbDpWDJ",
+          "versionId": "12efb8d6-7132-4b3d-ab99-5c0a02923410",
+          "event": "activated",
+          "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67"
+        },
+        {
+          "createdAt": "2026-01-25T03:07:34.505Z",
+          "id": 2,
+          "workflowId": "J7DQ2gd6USSUrirbDpWDJ",
+          "versionId": "12efb8d6-7132-4b3d-ab99-5c0a02923410",
+          "event": "activated",
+          "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67"
+        }
+      ]
+    }
+  },
+  {
+    "updatedAt": "2026-01-25T04:13:38.270Z",
+    "createdAt": "2026-01-25T04:13:38.270Z",
+    "id": "TvWKX4LrD-7M5fNW1nD9e",
+    "name": "My workflow 5",
+    "description": null,
+    "active": false,
+    "isArchived": false,
+    "nodes": [],
+    "connections": {},
+    "settings": {
+      "executionOrder": "v1",
+      "availableInMCP": false
+    },
+    "staticData": null,
+    "meta": null,
+    "pinData": {},
+    "versionId": "0eb52827-1d17-4b16-bf05-8fd591b32b56",
+    "activeVersionId": null,
+    "versionCounter": 1,
+    "triggerCount": 0,
+    "shared": [
+      {
+        "updatedAt": "2026-01-25T04:13:38.275Z",
+        "createdAt": "2026-01-25T04:13:38.275Z",
+        "role": "workflow:owner",
+        "workflowId": "TvWKX4LrD-7M5fNW1nD9e",
+        "projectId": "AnH5s5k0IPDAbKAr",
+        "project": {
+          "updatedAt": "2026-02-15T01:13:46.279Z",
+          "createdAt": "2026-01-16T09:23:06.039Z",
+          "id": "AnH5s5k0IPDAbKAr",
+          "name": "jhon harry embus <j.harryembusss@gmail.com>",
+          "type": "personal",
+          "icon": null,
+          "description": null,
+          "creatorId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+          "projectRelations": [
+            {
+              "updatedAt": "2026-01-16T09:23:06.040Z",
+              "createdAt": "2026-01-16T09:23:06.040Z",
+              "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+              "projectId": "AnH5s5k0IPDAbKAr",
+              "user": {
+                "updatedAt": "2026-02-22T00:06:07.000Z",
+                "createdAt": "2026-01-16T09:23:05.488Z",
+                "id": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+                "email": "j.harryembusss@gmail.com",
+                "firstName": "jhon harry",
+                "lastName": "embus",
+                "personalizationAnswers": {
+                  "version": "v4",
+                  "personalization_survey_submitted_at": "2026-01-17T02:05:18.446Z",
+                  "personalization_survey_n8n_version": "2.3.5"
+                },
+                "settings": {
+                  "userActivated": true,
+                  "easyAIWorkflowOnboarded": true,
+                  "firstSuccessfulWorkflowId": "WWFBfwaOceE8Jgke",
+                  "userActivatedAt": 1770490476556,
+                  "npsSurvey": {
+                    "waitingForResponse": true,
+                    "ignoredCount": 1,
+                    "lastShownAt": 1771202278904
+                  }
+                },
+                "disabled": false,
+                "mfaEnabled": false,
+                "lastActiveAt": "2026-02-21",
+                "isPending": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [],
+    "activeVersion": null
+  },
+  {
+    "updatedAt": "2026-01-17T20:58:05.994Z",
+    "createdAt": "2026-01-17T19:30:50.299Z",
+    "id": "WKtfIH7nRMUpb92MA95Kl",
+    "name": "My workflow 3",
+    "description": null,
+    "active": false,
+    "isArchived": false,
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "whatsapp-simulado",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2.1,
+        "position": [
+          0,
+          0
+        ],
+        "id": "dd3436e2-34b8-45f1-b729-3e4ffd106acf",
+        "name": "Webhook",
+        "webhookId": "0f7c365f-382a-4ad6-9d17-d0d2667ad399"
+      },
+      {
+        "parameters": {
+          "assignments": {
+            "assignments": [
+              {
+                "id": "24c18d31-8025-4e74-8cdd-226feb26c591",
+                "name": "mensaje",
+                "value": "n8n est\u00e1 funcionando correctamente",
+                "type": "string"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3.4,
+        "position": [
+          208,
+          0
+        ],
+        "id": "3fdced3c-41d0-42d6-a6ba-62ded7d4e7c4",
+        "name": "Edit Fields"
+      }
+    ],
+    "connections": {
+      "Webhook": {
+        "main": [
+          [
+            {
+              "node": "Edit Fields",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1",
+      "availableInMCP": false
+    },
+    "staticData": null,
+    "meta": null,
+    "pinData": {},
+    "versionId": "e393599b-623f-4677-8141-94df57879f56",
+    "activeVersionId": null,
+    "versionCounter": 4,
+    "triggerCount": 0,
+    "shared": [
+      {
+        "updatedAt": "2026-01-17T19:30:50.308Z",
+        "createdAt": "2026-01-17T19:30:50.308Z",
+        "role": "workflow:owner",
+        "workflowId": "WKtfIH7nRMUpb92MA95Kl",
+        "projectId": "AnH5s5k0IPDAbKAr",
+        "project": {
+          "updatedAt": "2026-02-15T01:13:46.279Z",
+          "createdAt": "2026-01-16T09:23:06.039Z",
+          "id": "AnH5s5k0IPDAbKAr",
+          "name": "jhon harry embus <j.harryembusss@gmail.com>",
+          "type": "personal",
+          "icon": null,
+          "description": null,
+          "creatorId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+          "projectRelations": [
+            {
+              "updatedAt": "2026-01-16T09:23:06.040Z",
+              "createdAt": "2026-01-16T09:23:06.040Z",
+              "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+              "projectId": "AnH5s5k0IPDAbKAr",
+              "user": {
+                "updatedAt": "2026-02-22T00:06:07.000Z",
+                "createdAt": "2026-01-16T09:23:05.488Z",
+                "id": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+                "email": "j.harryembusss@gmail.com",
+                "firstName": "jhon harry",
+                "lastName": "embus",
+                "personalizationAnswers": {
+                  "version": "v4",
+                  "personalization_survey_submitted_at": "2026-01-17T02:05:18.446Z",
+                  "personalization_survey_n8n_version": "2.3.5"
+                },
+                "settings": {
+                  "userActivated": true,
+                  "easyAIWorkflowOnboarded": true,
+                  "firstSuccessfulWorkflowId": "WWFBfwaOceE8Jgke",
+                  "userActivatedAt": 1770490476556,
+                  "npsSurvey": {
+                    "waitingForResponse": true,
+                    "ignoredCount": 1,
+                    "lastShownAt": 1771202278904
+                  }
+                },
+                "disabled": false,
+                "mfaEnabled": false,
+                "lastActiveAt": "2026-02-21",
+                "isPending": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [],
+    "activeVersion": null
+  },
+  {
+    "updatedAt": "2026-02-16T00:37:44.141Z",
+    "createdAt": "2026-01-28T22:50:50.672Z",
+    "id": "WWFBfwaOceE8Jgke",
+    "name": "WhatsApp Router Flow",
+    "description": null,
+    "active": true,
+    "isArchived": false,
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "whatsapp-webhook",
+          "responseMode": "lastNode",
+          "options": {}
+        },
+        "name": "WhatsApp Webhook",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 1,
+        "position": [
+          -672,
+          320
+        ],
+        "webhookId": "66a9819d-49de-46ab-a0eb-11e7231cf9e2",
+        "id": "27776abf-4945-4eab-8ba2-260f9f8f9f64"
+      },
+      {
+        "parameters": {
+          "operation": "executeQuery",
+          "query": "SELECT * FROM handle_router_logic(\n  '{{ $json.body.wa_phone }}',\n  '{{ $json.body.wa_message_id }}',\n  jsonb_build_object(\n    'phone', '{{ $json.body.wa_phone }}',\n    'message_id', '{{ $json.body.wa_message_id }}',\n    'text_body', '{{ $json.body.body }}'\n  )\n);",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.postgres",
+        "typeVersion": 2.6,
+        "position": [
+          -544,
+          320
+        ],
+        "id": "28bbcae1-fde1-4001-896f-99fabf52c295",
+        "name": "Execute a SQL query",
+        "credentials": {
+          "postgres": {
+            "id": "gDCqKXJ6HOMF4oCX",
+            "name": "Postgres account 4"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": true,
+              "leftValue": "",
+              "typeValidation": "strict",
+              "version": 3
+            },
+            "conditions": [
+              {
+                "id": "c99d4b18-9807-4930-8942-7e0963a153ed",
+                "leftValue": "={{ $json[\"handle_router_logic\"][\"action\"] }}",
+                "rightValue": "show_main_menu",
+                "operator": {
+                  "type": "string",
+                  "operation": "equals",
+                  "name": "filter.operator.equals"
+                }
+              }
+            ],
+            "combinator": "and"
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2.3,
+        "position": [
+          -400,
+          320
+        ],
+        "id": "f288b73b-8a9b-461c-97ac-6edd4e45b18f",
+        "name": "If"
+      },
+      {
+        "parameters": {
+          "assignments": {
+            "assignments": [
+              {
+                "id": "1d3a7460-2032-44b6-b0ff-e1644f0812a8",
+                "name": "reply_text",
+                "value": "\ud83d\udc4b \u00a1Hola! Soy Sofi, tu asistente virtual de EstiloPlus.  \u00bfEn qu\u00e9 puedo ayudarte hoy?  1\ufe0f\u20e3 Ver Servicios y Planes 2\ufe0f\u20e3 Soporte T\u00e9cnico 3\ufe0f\u20e3 Hablar con un Asesor",
+                "type": "string"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3.4,
+        "position": [
+          -240,
+          304
+        ],
+        "id": "0fad37ab-80f8-4e3c-b287-c03732c06e54",
+        "name": "Edit Fields"
+      },
+      {
+        "parameters": {
+          "promptType": "define",
+          "text": "={{ $json.body.body }}",
+          "options": {
+            "systemMessage": "Eres Sofi, la asistente virtual de EstiloPlus. Eres amable, profesional y respondes de forma concisa."
+          }
+        },
+        "type": "@n8n/n8n-nodes-langchain.agent",
+        "typeVersion": 3.1,
+        "position": [
+          -144,
+          448
+        ],
+        "id": "253a09f9-5e70-4a22-94b4-60eb94ce5001",
+        "name": "AI Agent"
+      },
+      {
+        "parameters": {
+          "modelName": "models/gemini-1.5-flash",
+          "options": {}
+        },
+        "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+        "typeVersion": 1,
+        "position": [
+          -336,
+          544
+        ],
+        "id": "b99d4425-7f1d-47c5-92cc-bc9a5949b4f7",
+        "name": "Google Gemini Chat Model",
+        "credentials": {
+          "googlePalmApi": {
+            "id": "2iHQdT5bjBoLFcu8",
+            "name": "Google Gemini Account Auto"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "respondWith": "json",
+          "responseBody": "={{ $json.output }}",
+          "options": {}
+        },
+        "name": "Respond to Webhook",
+        "type": "n8n-nodes-base.respondToWebhook",
+        "typeVersion": 1,
+        "position": [
+          160,
+          448
+        ],
+        "id": "respond-to-webhook-auto-added"
+      }
+    ],
+    "connections": {
+      "WhatsApp Webhook": {
+        "main": [
+          [
+            {
+              "node": "Execute a SQL query",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Execute a SQL query": {
+        "main": [
+          [
+            {
+              "node": "If",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "If": {
+        "main": [
+          [
+            {
+              "node": "Edit Fields",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "node": "AI Agent",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Google Gemini Chat Model": {
+        "ai_languageModel": [
+          [
+            {
+              "node": "AI Agent",
+              "type": "ai_languageModel",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Router Logic": {
+        "main": [
+          [
+            {
+              "node": "AI Agent",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "AI Agent": {
+        "main": [
+          [
+            {
+              "node": "Respond to Webhook",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1",
+      "callerPolicy": "workflowsFromSameOwner",
+      "availableInMCP": false
+    },
+    "staticData": null,
+    "meta": {
+      "templateCredsSetupCompleted": true
+    },
+    "pinData": {},
+    "versionId": "66a8abd9-e65d-49cf-b846-9b5ecc7cec97",
+    "activeVersionId": "82079cca-e08d-49c5-8f23-83483931669a",
+    "versionCounter": 80,
+    "triggerCount": 1,
+    "shared": [
+      {
+        "updatedAt": "2026-01-28T22:50:50.681Z",
+        "createdAt": "2026-01-28T22:50:50.681Z",
+        "role": "workflow:owner",
+        "workflowId": "WWFBfwaOceE8Jgke",
+        "projectId": "AnH5s5k0IPDAbKAr",
+        "project": {
+          "updatedAt": "2026-02-15T01:13:46.279Z",
+          "createdAt": "2026-01-16T09:23:06.039Z",
+          "id": "AnH5s5k0IPDAbKAr",
+          "name": "jhon harry embus <j.harryembusss@gmail.com>",
+          "type": "personal",
+          "icon": null,
+          "description": null,
+          "creatorId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+          "projectRelations": [
+            {
+              "updatedAt": "2026-01-16T09:23:06.040Z",
+              "createdAt": "2026-01-16T09:23:06.040Z",
+              "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+              "projectId": "AnH5s5k0IPDAbKAr",
+              "user": {
+                "updatedAt": "2026-02-22T00:06:07.000Z",
+                "createdAt": "2026-01-16T09:23:05.488Z",
+                "id": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+                "email": "j.harryembusss@gmail.com",
+                "firstName": "jhon harry",
+                "lastName": "embus",
+                "personalizationAnswers": {
+                  "version": "v4",
+                  "personalization_survey_submitted_at": "2026-01-17T02:05:18.446Z",
+                  "personalization_survey_n8n_version": "2.3.5"
+                },
+                "settings": {
+                  "userActivated": true,
+                  "easyAIWorkflowOnboarded": true,
+                  "firstSuccessfulWorkflowId": "WWFBfwaOceE8Jgke",
+                  "userActivatedAt": 1770490476556,
+                  "npsSurvey": {
+                    "waitingForResponse": true,
+                    "ignoredCount": 1,
+                    "lastShownAt": 1771202278904
+                  }
+                },
+                "disabled": false,
+                "mfaEnabled": false,
+                "lastActiveAt": "2026-02-21",
+                "isPending": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [],
+    "activeVersion": {
+      "updatedAt": "2026-02-15T20:11:45.231Z",
+      "createdAt": "2026-02-15T20:11:45.231Z",
+      "versionId": "82079cca-e08d-49c5-8f23-83483931669a",
+      "workflowId": "WWFBfwaOceE8Jgke",
+      "nodes": [
+        {
+          "parameters": {
+            "httpMethod": "POST",
+            "path": "whatsapp-webhook",
+            "responseMode": "lastNode",
+            "options": {}
+          },
+          "name": "WhatsApp Webhook",
+          "type": "n8n-nodes-base.webhook",
+          "typeVersion": 1,
+          "position": [
+            -672,
+            320
+          ],
+          "webhookId": "66a9819d-49de-46ab-a0eb-11e7231cf9e2",
+          "id": "27776abf-4945-4eab-8ba2-260f9f8f9f64"
+        },
+        {
+          "parameters": {
+            "operation": "executeQuery",
+            "query": "SELECT * FROM handle_router_logic(\n  '{{ $json.body.wa_phone }}',\n  '{{ $json.body.wa_message_id }}',\n  jsonb_build_object(\n    'phone', '{{ $json.body.wa_phone }}',\n    'message_id', '{{ $json.body.wa_message_id }}',\n    'text_body', '{{ $json.body.body }}'\n  )\n);",
+            "options": {}
+          },
+          "type": "n8n-nodes-base.postgres",
+          "typeVersion": 2.6,
+          "position": [
+            -544,
+            320
+          ],
+          "id": "28bbcae1-fde1-4001-896f-99fabf52c295",
+          "name": "Execute a SQL query",
+          "credentials": {
+            "postgres": {
+              "id": "gDCqKXJ6HOMF4oCX",
+              "name": "Postgres account 4"
+            }
+          }
+        },
+        {
+          "parameters": {
+            "conditions": {
+              "options": {
+                "caseSensitive": true,
+                "leftValue": "",
+                "typeValidation": "strict",
+                "version": 3
+              },
+              "conditions": [
+                {
+                  "id": "c99d4b18-9807-4930-8942-7e0963a153ed",
+                  "leftValue": "={{ $json[\"handle_router_logic\"][\"action\"] }}",
+                  "rightValue": "show_main_menu",
+                  "operator": {
+                    "type": "string",
+                    "operation": "equals",
+                    "name": "filter.operator.equals"
+                  }
+                }
+              ],
+              "combinator": "and"
+            },
+            "options": {}
+          },
+          "type": "n8n-nodes-base.if",
+          "typeVersion": 2.3,
+          "position": [
+            -400,
+            320
+          ],
+          "id": "f288b73b-8a9b-461c-97ac-6edd4e45b18f",
+          "name": "If"
+        },
+        {
+          "parameters": {
+            "assignments": {
+              "assignments": [
+                {
+                  "id": "1d3a7460-2032-44b6-b0ff-e1644f0812a8",
+                  "name": "reply_text",
+                  "value": "\ud83d\udc4b \u00a1Hola! Soy Sofi, tu asistente virtual de EstiloPlus.  \u00bfEn qu\u00e9 puedo ayudarte hoy?  1\ufe0f\u20e3 Ver Servicios y Planes 2\ufe0f\u20e3 Soporte T\u00e9cnico 3\ufe0f\u20e3 Hablar con un Asesor",
+                  "type": "string"
+                }
+              ]
+            },
+            "options": {}
+          },
+          "type": "n8n-nodes-base.set",
+          "typeVersion": 3.4,
+          "position": [
+            -240,
+            304
+          ],
+          "id": "0fad37ab-80f8-4e3c-b287-c03732c06e54",
+          "name": "Edit Fields"
+        },
+        {
+          "parameters": {
+            "promptType": "define",
+            "text": "={{ $('WhatsApp Webhook').item.json.body.body }}",
+            "options": {
+              "systemMessage": "Eres Sofi, la asistente virtual de EstiloPlus. Eres amable, profesional y respondes de forma concisa."
+            }
+          },
+          "type": "@n8n/n8n-nodes-langchain.agent",
+          "typeVersion": 3.1,
+          "position": [
+            -144,
+            448
+          ],
+          "id": "253a09f9-5e70-4a22-94b4-60eb94ce5001",
+          "name": "AI Agent"
+        },
+        {
+          "parameters": {
+            "modelName": "models/gemini-1.5-flash",
+            "options": {}
+          },
+          "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+          "typeVersion": 1,
+          "position": [
+            -336,
+            544
+          ],
+          "id": "b99d4425-7f1d-47c5-92cc-bc9a5949b4f7",
+          "name": "Google Gemini Chat Model",
+          "credentials": {
+            "googlePalmApi": {
+              "id": "2iHQdT5bjBoLFcu8",
+              "name": "Google Gemini Account Auto"
+            }
+          }
+        },
+        {
+          "parameters": {
+            "respondWith": "json",
+            "responseBody": "={{ $json.output }}"
+          },
+          "name": "Respond to Webhook",
+          "type": "n8n-nodes-base.respondToWebhook",
+          "typeVersion": 1,
+          "position": [
+            156,
+            448
+          ],
+          "id": "respond-to-webhook-auto-added"
+        }
+      ],
+      "connections": {
+        "WhatsApp Webhook": {
+          "main": [
+            [
+              {
+                "node": "Execute a SQL query",
+                "type": "main",
+                "index": 0
+              }
+            ]
+          ]
+        },
+        "Execute a SQL query": {
+          "main": [
+            [
+              {
+                "node": "If",
+                "type": "main",
+                "index": 0
+              }
+            ]
+          ]
+        },
+        "If": {
+          "main": [
+            [
+              {
+                "node": "Edit Fields",
+                "type": "main",
+                "index": 0
+              }
+            ],
+            [
+              {
+                "node": "AI Agent",
+                "type": "main",
+                "index": 0
+              }
+            ]
+          ]
+        },
+        "Google Gemini Chat Model": {
+          "ai_languageModel": [
+            [
+              {
+                "node": "AI Agent",
+                "type": "ai_languageModel",
+                "index": 0
+              }
+            ]
+          ]
+        },
+        "Router Logic": {
+          "main": [
+            [
+              {
+                "node": "AI Agent",
+                "type": "main",
+                "index": 0
+              }
+            ]
+          ]
+        },
+        "AI Agent": {
+          "main": [
+            [
+              {
+                "node": "Respond to Webhook",
+                "type": "main",
+                "index": 0
+              }
+            ]
+          ]
+        }
+      },
+      "authors": "jhon harry embus",
+      "name": null,
+      "description": null,
+      "autosaved": false,
+      "workflowPublishHistory": [
+        {
+          "createdAt": "2026-02-15T20:11:45.348Z",
+          "id": 17,
+          "workflowId": "WWFBfwaOceE8Jgke",
+          "versionId": "82079cca-e08d-49c5-8f23-83483931669a",
+          "event": "activated",
+          "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67"
+        }
+      ]
+    }
+  },
+  {
+    "updatedAt": "2026-01-17T02:38:19.277Z",
+    "createdAt": "2026-01-17T02:38:19.277Z",
+    "id": "buhLElkVv4N16qJGGzbhD",
+    "name": "My workflow 2",
+    "description": null,
+    "active": false,
+    "isArchived": false,
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "whatsapp-simulado",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2.1,
+        "position": [
+          0,
+          0
+        ],
+        "id": "51fc6bd1-df35-42cb-b15a-f4b4c55fbbee",
+        "name": "Webhook",
+        "webhookId": "a5ea0c01-1a09-4763-90d9-1e44a5afad32"
+      }
+    ],
+    "connections": {},
+    "settings": {
+      "executionOrder": "v1",
+      "availableInMCP": false
+    },
+    "staticData": null,
+    "meta": null,
+    "pinData": {},
+    "versionId": "1e3b44a1-ac7b-477e-a7ea-8b748c230c23",
+    "activeVersionId": null,
+    "versionCounter": 1,
+    "triggerCount": 0,
+    "shared": [
+      {
+        "updatedAt": "2026-01-17T02:38:19.284Z",
+        "createdAt": "2026-01-17T02:38:19.284Z",
+        "role": "workflow:owner",
+        "workflowId": "buhLElkVv4N16qJGGzbhD",
+        "projectId": "AnH5s5k0IPDAbKAr",
+        "project": {
+          "updatedAt": "2026-02-15T01:13:46.279Z",
+          "createdAt": "2026-01-16T09:23:06.039Z",
+          "id": "AnH5s5k0IPDAbKAr",
+          "name": "jhon harry embus <j.harryembusss@gmail.com>",
+          "type": "personal",
+          "icon": null,
+          "description": null,
+          "creatorId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+          "projectRelations": [
+            {
+              "updatedAt": "2026-01-16T09:23:06.040Z",
+              "createdAt": "2026-01-16T09:23:06.040Z",
+              "userId": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+              "projectId": "AnH5s5k0IPDAbKAr",
+              "user": {
+                "updatedAt": "2026-02-22T00:06:07.000Z",
+                "createdAt": "2026-01-16T09:23:05.488Z",
+                "id": "83e15200-07ee-4a47-abe5-2bd1948d7b67",
+                "email": "j.harryembusss@gmail.com",
+                "firstName": "jhon harry",
+                "lastName": "embus",
+                "personalizationAnswers": {
+                  "version": "v4",
+                  "personalization_survey_submitted_at": "2026-01-17T02:05:18.446Z",
+                  "personalization_survey_n8n_version": "2.3.5"
+                },
+                "settings": {
+                  "userActivated": true,
+                  "easyAIWorkflowOnboarded": true,
+                  "firstSuccessfulWorkflowId": "WWFBfwaOceE8Jgke",
+                  "userActivatedAt": 1770490476556,
+                  "npsSurvey": {
+                    "waitingForResponse": true,
+                    "ignoredCount": 1,
+                    "lastShownAt": 1771202278904
+                  }
+                },
+                "disabled": false,
+                "mfaEnabled": false,
+                "lastActiveAt": "2026-02-21",
+                "isPending": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [],
+    "activeVersion": null
+  }
+]

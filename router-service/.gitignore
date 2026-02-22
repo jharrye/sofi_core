@@ -1,0 +1,28 @@
+# Entornos virtuales y Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración y Secretos (MUY IMPORTANTE)
+.env
+*.log
+
+# Archivos de Sistema y Editores
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Ejecutables y carpetas de compilación
+dist/
+build/
+*.exe
+*.spec
+
+# Perfiles de Chrome/Navegador (para tus bots)
+chrome_profile/
+sofi_profile/
+perfil_whatsapp/
+profile/
